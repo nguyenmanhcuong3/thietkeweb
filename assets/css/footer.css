@@ -1,0 +1,114 @@
+
+.footer{
+    background-color: rgb(0, 166, 255);
+    color: white;
+    font-family: 'brandon', sans-serif;
+    width: 100%;
+    
+    
+    position: absolute;
+    border-top: 1px solid white;
+}
+.logo-footer h1{
+    color: red;
+    margin-bottom: 40px;
+ }
+ 
+.conten{
+    margin-left: 3%;
+}
+
+.conten li a{
+    color: white;
+    text-decoration: none;
+}
+
+.conten pre{
+    color: #63ff46;
+}
+.title-menu {
+    margin-top: 1%;
+    font-size: 20px;
+    list-style: none;
+    
+}
+.list-footer ul{
+    list-style: none;
+}
+
+.social-footer li{
+    margin: 2%;
+}
+.icon-footer{
+    font-size: 15px;
+}
+.icon-footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer-bottom{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: #000000;
+}
+.icon-footer-contact{
+    margin: 12px 12px 0 0;
+    font-size: 30px;
+}
+
+.search-box-footer{
+    width:100%;
+    height:40px;
+    background-color: none;
+    border:2px solid  white;
+    border-radius: 10px;
+    position: absolute;
+    
+    top:50px;
+  }
+  .search-box-footer input{
+    height:38px;
+    width:85%;
+    border:none;
+    padding-left: 10px;
+    border-radius:  10px 0px 0px 10px;
+    position: absolute;
+  }
+  .search-btn-footer{
+    float:right;
+    width:15%;
+    height:38px;
+    line-height: 38px;
+    text-align: right;
+    color:white;
+  }
+  .search-box-footer input:focus,.search-box-footer input:active,.search-boxinput{
+    outline:0;
+    outline-style: none;
+    outline-width: 0;
+    border-radius: 10px 0px 0px 0px;
+  }
+  .btn-footer{
+    position: relative;
+    
+  }
+  @media  (max-width: 1023px){
+    .search-box-footer{
+        display: none;
+    }
+  } 
+  .to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 30px;
+    background: orange;
+   border-radius: 50%;
+   height:50px;
+   width:50px;
+   border:0px;
+  } 
+  
+
+

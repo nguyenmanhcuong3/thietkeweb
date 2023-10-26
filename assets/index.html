@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stationery store</title>
+    <link rel="icon" href="img/icon/icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="BOOTSTRAP/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="font/fontawesome-free-6.4.2-web/css/all.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    
+    <script src="js/card.js"></script>
+    
+    
+</head>
+<body>
+    <!-- <div class="main"> -->
+
+       <!-- header -->
+
+
+        <header>
+            <div class="header">
+                <div class="nav">
+
+                    <label for="nav-moblie-input" class="bar"><i class=" bar fa-solid fa-bars"></i></label>
+
+                <a class="logo" href="index.html"><img src="img/icon/Logo-Dai-Hoc-Giao-Thong-Van-Tai-UTC.webp" alt="12"></a>
+
+                <nav class="nav-pc">
+                    <ul class="nav-list ">
+                        <li><a href="index.html"  ><i class=" home fa-solid fa-house"></i></a></li>
+                        <li><a id="giay" href="#"  >Giấy</a></li>
+                        <li><a id="but" href="#"  >Bút</a></li>
+                        <li><a id="dodung" href="#"  >Đồ dùng văn phòng</a></li>
+                        <li><a id="dungcu" href="#"  >Dụng cụ học sinh</a></li>
+                        <li>
+                            <a href="#" >More <i class="down fa-sharp fa-solid fa-caret-down"></i></a>
+                                <ul class="login-and-more">
+                                    <li><a target="_top" href="login.html"><i class="icon fa-solid fa-right-to-bracket fa-beat"></i>Đăng nhập </a></li>
+                                    <li><a href="contact.html"><i class="icon fa-solid fa-phone fa-beat"></i>Liên hệ</a></li>
+                                    <li><a href="news.html"><i class="icon fa-solid fa-newspaper fa-beat"></i>Tin tức</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                    <div class="search-box">
+                        <input type="text" class="search-box__input" placeholder="Search">
+                        <a href="" class="search-btn"> <i class="fas fa-search"></i></a>
+                     </div>
+                </nav>
+
+                <input type="checkbox" hidden name="" class="nav-input" id="nav-moblie-input">
+
+                
+
+                <label for="nav-moblie-input" class="nav-overlay"></label>
+
+                <nav class="nav-mobile">
+                    <label for="nav-moblie-input"class="nav-close"><i class="fa-solid fa-xmark" style="color: #000000;"></i></label>
+                    <ul class="nav-mobile-list">
+                        <li><a href="index.html" class="nav-mobile-link" >Home</a></li>
+                        <li><a id="paper" href="#" class="nav-mobile-link" >Giấy</a></li>
+                        <li><a id="pen" href="#" class="nav-mobile-link" >Bút</a></li>
+                        <li><a id="utensil" href="#" class="nav-mobile-link" >Đồ dùng văn phòng</a></li>
+                        <li><a id="apparatus" href="#" class="nav-mobile-link" >Dụng cụ học sinh</a></li>
+                        <li>
+                            <a href="#" class="nav-mobile-link" >More <i class="nav-mobile-list down fa-sharp fa-solid fa-caret-down"></i></a>
+                                <ul class="  nav-mobile-more ">
+                                    <li><a href="login.html" class="nav-mobile-link" ><i class="icon fa-solid fa-right-to-bracket fa-beat"></i>Đăng nhập </a></li>
+                                    <li><a href="contact.html" class="nav-mobile-link" ><i class="icon fa-solid fa-phone fa-beat"></i>Liên hệ</a></li>
+                                    <li><a href="news.html" class="nav-mobile-link" ><i class="icon fa-solid fa-newspaper fa-beat"></i>Tin tức</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                </div>
+            </div>
+        </header>
+
+        <!-- silde -->
+       
+
+        <div class="slide">
+          <div class="mySlides w3-display-container w3-center">
+            <img src="img/slide/slide1.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            </div>
+          </div>
+          <div class="mySlides w3-display-container w3-center">
+            <img src="img/slide/slide2.png" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+               
+            </div>
+          </div>
+          <div class="mySlides w3-display-container w3-center">
+            <img src="img/slide/slide3.jpg" style="width:100%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            
+            </div>
+          </div>
+        </div>
+
+
+        <!-- slick slider -->
+
+        <div class="container my-2 py-4">
+            <div class="row justify-content-center">
+              <div class="col-lg-7 col-md-8">
+                <div class="text-center">
+                  <h1 class="text-warning" >Top sản phẩm bán chạy nhất</h1>
+                </div>
+              </div>
+            </div>
+            <br>
+      
+            <div class="slider">
+              <div class="mx-3">
+                <div class="card border-0 rounded-0"
+                  style="background-image:url(img/but/butchi2b.jpg);background-size: cover;">
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end" style="height: 260px">
+                    <div class="text-center pb-2  w-100 pt-3 bg-opacity-75 color-head">
+                      <a class="text-white fw-bold">Bút chì</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mx-3">
+                <div class="card border-0 rounded-0"
+                  style="background-image:url(img/giay/a5hongha.jpg) ;background-size: cover;">
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end" style="height: 260px">
+                    <div class="text-center pb-2  w-100 pt-3 bg-opacity-75  color-head">
+                      <a class="text-white fw-bold">Giấy</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mx-3">
+                <div class="card border-0 rounded-0"
+                  style="background-image:url(img/dung_cu_hoc_sinh/balo.jpg) ;background-size: cover;">
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end" style="height: 260px">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75  color-head">
+                      <a class="text-white fw-bold">Ba lô</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mx-3">
+                <div class="card border-0 rounded-0"
+                  style="background-image:url(img/dung_cu_hoc_sinh/bangphan.jpg);background-size: cover;">
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end" style="height: 260px">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75  color-head">
+                      <a class="text-white fw-bold">Bảng phấn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mx-3">
+                <div class="card border-0 rounded-0"
+                  style="background-image:url(img/do_dung_van_phong/biahop.jpg) ;background-size: cover;">
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end" style="height: 260px">
+                    <div class="text-center pb-2 w-100 pt-3 bg-opacity-75  color-head">
+                      <a class="text-white fw-bold">Bìa hộp</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mx-3">
+                <div class="card border-0 rounded-0"
+                  style="background-image:url(img/dung_cu_hoc_sinh/compa.jpg);background-size: cover;">
+                  <div class="d-flex bg-opacity-25 justify-content-center align-items-end" style="height: 260px">
+                    <div class="text-center pb-2  w-100 pt-3 bg-opacity-75  color-head">
+                      <a class="text-white fw-bold">Compa</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+             <!-- display-product -->
+             <script src="js/card.js"></script>
+             <script src="js/to-product.js"></script>
+             <!--              Giấy                  -->
+            
+             <div class="display-product">
+               <p id="tieude1" class="heading-product" ><i>Giấy thông dụng</i></p>
+             
+               <div class="row">
+            
+                  <div class="product-card" >
+                     <img src="img/giay/double_a.jpg" alt="">
+                     <div class="card-body">
+                         <h2 class="card-title" >Giấy In Double A DL 70gms</h2>
+                         <p>Giá: 20000 đ</p>
+                         <div class="overlay"><button type="button" id="btn-open-1">Xem chi tiết</button></div>
+                     </div>
+                    
+                   </div>
+                   
+                
+                   <div class="product-card">
+                     <img src="img/giay/a5hongha.jpg" alt="">
+                     <div class="card-body">
+                         <h2 class="card-title">Giấy A5 DL 75gms</h2>
+                         <p>Giá: 30000 đ</p>
+                         <div class="overlay"><button type="button" id="btn-open-2" >Xem chi tiết</button></div>
+                     </div>
+                   </div>
+                   <div class="product-card">
+                     <img src="img/giay/baibang.jpg" alt="">
+                     <div class="card-body">
+                         <h2 class="card-title">Giấy In Bãi Bằng Office A4</h2>
+                         <p>Giá: 40000 đ</p>
+                         <div class="overlay"><button type="button" id="btn-open-3">Xem chi tiết</button></div>
+                     </div>
+                   </div>
+                   <div class="product-card">
+                     <img src="img/giay/kiemtra.jpg" alt="">
+                     <div class="card-body">
+                        <h2 class="card-title">Giấy Kiểm Tra Nam Hải</h2>
+                        <p> Giá: 6000 đ</p>
+                        <div class="overlay"><button type="button" id="btn-open-4" >Xem chi tiết</button></div>
+                     </div>
+                  </div>
+                  <div class="product-card">
+                     <img src="img/giay/note.jpg" alt="">
+                     <div class="card-body">
+                        <h2 class="card-title">Giấy dán ghi chú Deli 100 trang</h2>
+                        <p>Giá: 15000 đ</p>
+                        <div class="overlay"><button type="button" id="btn-open-5" >Xem chi tiết</button></div>
+                     </div>
+                  </div>
+                  <div class="product-card">
+                     <img src="img/giay/paperthu.jpg" alt="">
+                     <div class="card-body">
+                        <h2 class="card-title">Giấy luyện viết chữ </h2>
+                        <p>Giá :15000 đ</p>
+                        <div class="overlay"><button type="button" id="btn-open-6" >Xem chi tiết</button></div>
+                        
+                     </div>
+                  </div>
+                  
+                  <div class="product-card">
+                     <img src="img/giay/loxo.jpg" alt="">
+                     <div class="card-body">
+                        <h2 class="card-title">Sổ lò xo</h2>
+                        <p>Giá :34000 đ</p>
+                        <div class="overlay"><button type="button" id="btn-open-7">Xem chi tiết</button></div>
+                        
+                     </div>
+                  </div>
+                  <div class="product-card">
+                     <img src="img/giay/oly.jpg" alt="">
+                     <div class="card-body">
+                        <h2 class="card-title">Vở 4 ô ly Hồng Hà</h2>
+                        <p>Giá :9400 đ</p>
+                        <div class="overlay"><button type="button" id="btn-open-8" >Xem chi tiết</button></div>
+                        
+                     </div>
+                  </div>
+                  <div class="product-card">
+                     <img src="img/giay/biamau.jpg" alt="">
+                     <div class="card-body">
+                        <h2 class="card-title">Bìa Màu A4</h2>
+                        <p>Giá :85000 đ</p>
+                        <div class="overlay"><button type="button" id="btn-open-9" >Xem chi tiết</button></div>
+                        
+                     </div>
+                  </div>
+              </div>
+      
+              <div class="modal-container" id="modal-container-1" >
+                  <div class="modal-content" id="one-modal">
+                     <div class="modal-header">
+                        <h3>Thông tin sản phẩm</h3>
+                        <button id="btn-close-1" ><i class="fa-solid fa-xmark" ></i></button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="row-window">
+                           <div class="window">
+                              <img class="anh_lon"  src="img/giay/double_a.jpg " alt="">
+                              
+                              <ul class="thumbnail-images">
+                                 <li><img src="img/giay/double_a_2.jpg" class="anh_nho" alt=""  ></li>
+                                 <li><img src="img/giay/double_a_3.jpg" alt="" class="anh_nho"  ></li>
+                                 <li><img src="img/giay/double_a.jpg" alt="" class="anh_nho"  ></li>
+                              </ul>
+            
+                           </div>
+                           <div class="window">
+                              <p>Giá bán : 20000 đ</p>
+                              <p>Đóng gói : hộp</p>
+                              <p>Kiểu dáng :hiện đại</p>
+                              <p>Màu sắc: trắng</p>
+                              <p>Loại bìa : cứng</p>
+                              <p>Kích thước: 297 x 210mm</p>
+                              <p>Xuất xứ : Thái Lan</p>
+                              <div class="quantity">
+                                  <label for="quantity">Số lượng:</label>
+                                  <div class="quantity-input">
+                                    <button class="quantity-button decrease">-</button>
+                                    <input type="text" class="quantity-value" value="1" />
+                                    <button class="quantity-button increase">+</button>
+                                  </div>
+                                </div>
+                              <div class="nut">
+                                 <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                                <button>Mua ngay</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+            
+                  </div>
+              </div>
+               
+              
+              <div class="modal-container" id="modal-container-2" >
+                  <div class="modal-content" id="two-modal">
+                     <div class="modal-header">
+                        <h3>Thông tin sản phẩm</h3>
+                        <button id="btn-close-2" ><i class="fa-solid fa-xmark" ></i></button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="row-window">
+                           <div class="window">
+                              <img class="anh_lon"  src="img/giay/a5hongha.jpg" alt="">
+                              <ul class="thumbnail-images">
+                                 <li><img src="img/giay/a5hongha_1.jpg" class="anh_nho" alt=""  ></li>
+                                 <li><img src="img/giay/a5hongha_2.jpg" alt="" class="anh_nho" ></li>
+                                 <li><img src="img/giay/a5hongha_3.jpg" alt="" class="anh_nho" ></li>
+                              </ul>
+            
+                           </div>
+                           <div class="window">
+                              <p>Thương hiệu:Hồng Hà</p>
+                              <p>Kích thước giấy:A5</p>
+                              <p>Kiểu dáng :hiện đại</p>
+                              <p>Loại giấy gói: Ram giấy</p>
+                              <p>Số trang :500</p>
+                              <p>Kho hàng :578</p>
+                              <p>Nguồn gốc: Hà Nội</p>
+                              <div class="quantity">
+                                  <label for="quantity">Số lượng:</label>
+                                  <div class="quantity-input">
+                                    <button class="quantity-button decrease">-</button>
+                                    <input type="text" class="quantity-value" value="1" />
+                                    <button class="quantity-button increase">+</button>
+                                  </div>
+                                </div>
+                              <div class="nut">
+                                 <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                                <button>Mua ngay</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+            
+                  </div>
+              </div>
+              
+              <div class="modal-container" id="modal-container-3" >
+                  <div class="modal-content" id="three-modal">
+                     <div class="modal-header">
+                        <h3>Thông tin sản phẩm</h3>
+                        <button id="btn-close-3" ><i class="fa-solid fa-xmark" ></i></button>
+                     </div>
+                     <div class="modal-body">
+                        <div class="row-window">
+                           <div class="window">
+                              <img class="anh_lon"  src="img/giay/baibang.jpg " alt="">
+                              <ul class="thumbnail-images">
+                                 <li><img src="img/giay/baibang_1.jpg" class="anh_nho" alt=""></li>
+                                 <li><img src="img/giay/baibang_2.jpg" alt="" class="anh_nho" ></li>
+                                 <li><img src="img/giay/baibang_3.jpg" alt="" class="anh_nho"  ></li>
+                              </ul>
+            
+                           </div>
+                           <div class="window">
+                              <p>Thương hiệu: Bãi Bằng</p>
+                              <p>Kích thước giấy:A4</p>
+                              <p>Kết cấu giấy: Thô</p>
+                              <p>Loại giấy gói: Ram giấy</p>
+                              <p>Số trang:1000</p>
+                              <p>Kho hàng: 412</p>
+                              <p>Nguồn gốc:Hà Nội</p>
+                              <div class="quantity">
+                                  <label for="quantity">Số lượng:</label>
+                                  <div class="quantity-input">
+                                    <button class="quantity-button decrease">-</button>
+                                    <input type="text" class="quantity-value" value="1" />
+                                    <button class="quantity-button increase">+</button>
+                                  </div>
+                              </div>
+                              <div class="nut">
+                                 <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                                <button>Mua ngay</button>
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+            
+                  </div>
+              </div>  
+              <div class="modal-container" id="modal-container-4">
+               <div class="modal-content" id="four-modal">
+                  <div class="modal-header">
+                     <h3>Thông tin sản phẩm</h3>
+                     <button id="btn-close-4" ><i class="fa-solid fa-xmark" ></i></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="row-window">
+                        <div class="window">
+                           <img class="anh_lon"  src="img/giay/kiemtra.jpg " alt="">
+                           <ul class="thumbnail-images">
+                              <li><img src="img/giay/kiemtra_1.jpg" class="anh_nho" alt="" ></li>
+                              <li><img src="img/giay/kiemtra_2.jpg" alt="" class="anh_nho" ></li>
+                              <li><img src="img/giay/kiemtra_3.jpg" alt="" class="anh_nho" ></li>
+                           </ul>
+         
+                        </div>
+                        <div class="window">
+                           <p>Thương hiệu: Nam Hải </p>
+                           <p>Kích thước: 2.5 x 2.5 mm</p>
+                           <p>Kiểu dáng :hiện đại</p>
+                           <p>Độ trắng: 92-95% ISO</p>
+                           <p> Định lượng giấy: 70 g/m2</p>
+                           <p>Kết cấu: Gọn nhẹ</p>
+                           <p>Nguồn gốc : Hà Nội</p>
+                           <div class="quantity">
+                              <label for="quantity">Số lượng:</label>
+                              <div class="quantity-input">
+                                <button class="quantity-button decrease">-</button>
+                                <input type="text" class="quantity-value" value="1" />
+                                <button class="quantity-button increase">+</button>
+                              </div>
+                          </div>
+                           <div class="nut">
+                              <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                             <button>Mua ngay</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+         
+               </div>
+             </div>
+           
+             <div class="modal-container" id="modal-container-5">
+               <div class="modal-content" id="five-modal">
+                  <div class="modal-header">
+                     <h3>Thông tin sản phẩm</h3>
+                     <button id="btn-close-5"><i class="fa-solid fa-xmark" ></i></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="row-window">
+                        <div class="window">
+                           <img class="anh_lon"  src="img/giay/note.jpg " alt="">
+                           <ul class="thumbnail-images">
+                              <li><img src="img/giay/note_1.jpg" class="anh_nho" alt="" ></li>
+                              <li><img src="img/giay/note_2.jpg" alt="" class="anh_nho" ></li>
+                              <li><img src="img/giay/note_3.jpg" alt="" class="anh_nho" ></li>
+                           </ul>
+         
+                        </div>
+                        <div class="window">
+                           <p>Thương hiêu: Deli</p>
+                           <p> Kích thước: 76 * 76mm</p>
+                           <p>Kiểu dáng :nhỏ nhắn,cá tính</p>
+                           <p>Màu sắc: ngẫu nhiên</p>
+                           <p>Gói hàng bao gồm: tập giấy 100 trang</p> 
+                           <p>Kho hàng :286</p>
+                           <p>Nguồn gốc: Trung Quốc</p>
+                           <div class="quantity">
+                              <label for="quantity">Số lượng:</label>
+                              <div class="quantity-input">
+                                <button class="quantity-button decrease">-</button>
+                                <input type="text" class="quantity-value" value="1" />
+                                <button class="quantity-button increase">+</button>
+                              </div>
+                          </div>
+                           <div class="nut">
+                              <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                             <button>Mua ngay</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+         
+               </div>
+             </div>
+           
+             <div class="modal-container" id="modal-container-6">
+               <div class="modal-content" id="six-modal">
+                  <div class="modal-header">
+                     <h3>Thông tin sản phẩm</h3>
+                     <button id="btn-close-6" ><i class="fa-solid fa-xmark" ></i></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="row-window">
+                        <div class="window">
+                           <img class="anh_lon"  src="img/giay/paperthu.jpg" alt="">
+                           <ul class="thumbnail-images">
+                              <li><img src="img/giay/paperthu_1.jpg" class="anh_nho" alt="" ></li>
+                              <li><img src="img/giay/paperthu_2.jpg" alt="" class="anh_nho" ></li>
+                              <li><img src="img/giay/paperthu_1.jpg" alt="" class="anh_nho"></li>
+                           </ul>
+         
+                        </div>
+                        <div class="window">
+                           <p>Thương Hiệu: Bút Mài Thầy Ánh</p>
+                           <p>Kích thước giấy: A4</p>
+                           <p>Kiểu dáng :thô</p>
+                           <p>Trọng lượng giấy 100gsm</p>
+                              
+                           <p>Kho hàng :114466</p>
+                           <p>Tính năng giấy: Thư pháp</p>
+                           <p>Nguồn gốc: Hà Nội</p>
+                           <div class="quantity">
+                              <label for="quantity">Số lượng:</label>
+                              <div class="quantity-input">
+                                <button class="quantity-button decrease">-</button>
+                                <input type="text" class="quantity-value" value="1" />
+                                <button class="quantity-button increase">+</button>
+                              </div>
+                          </div>
+                           <div class="nut">
+                              <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                             <button>Mua ngay</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+         
+               </div>
+             </div>
+             <div class="modal-container" id="modal-container-7">
+               <div class="modal-content" id="seven-modal">
+                  <div class="modal-header">
+                     <h3>Thông tin sản phẩm</h3>
+                     <button id="btn-close-7" ><i class="fa-solid fa-xmark" ></i></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="row-window">
+                        <div class="window">
+                           <img class="anh_lon"  src="img/giay/loxo.jpg" alt="">
+                           <ul class="thumbnail-images">
+                              <li><img src="img/giay/loxo_1.jpg" class="anh_nho" alt=""  ></li>
+                              <li><img src="img/giay/loxo_2.jpg" alt="" class="anh_nho"  ></li>
+                              <li><img src="img/giay/loxo_3.jpg" alt="" class="anh_nho" ></li>
+                           </ul>
+         
+                        </div>
+                        <div class="window">
+                           <p>Giá : 34000 đ  </p>
+                           <p>Định lượng giấy: 80 g/m2</p>
+                           <p>Độ trắng: 92-95ISO</p>
+                           <p>Kích thước: B5 - 175x250mm</p>
+                              
+                           <p>Số trang: 200 trang</p>
+                           <p> Dòng kẻ: Caro 5x5 mm</p>
+                           <div class="quantity">
+                              <label for="quantity">Số lượng:</label>
+                              <div class="quantity-input">
+                                <button class="quantity-button decrease">-</button>
+                                <input type="text" class="quantity-value" value="1" />
+                                <button class="quantity-button increase">+</button>
+                              </div>
+                          </div>
+                           <div class="nut">
+                              <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                             <button>Mua ngay</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+         
+               </div>
+             </div>
+             <div class="modal-container" id="modal-container-8">
+               <div class="modal-content" id="eight-modal">
+                  <div class="modal-header">
+                     <h3>Thông tin sản phẩm</h3>
+                     <button id="btn-close-8" ><i class="fa-solid fa-xmark" ></i></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="row-window">
+                        <div class="window">
+                           <img class="anh_lon" src="img/giay/oly.jpg" alt="">
+                           <ul class="thumbnail-images">
+                              <li><img src="img/giay/oly_1.jpg" class="anh_nho" alt="" ></li>
+                              <li><img src="img/giay/oly_2.jpg" alt="" class="anh_nho" ></li>
+                              <li><img src="img/giay/oly_3.jpg" alt="" class="anh_nho" ></li>
+                           </ul>
+         
+                        </div>
+                        <div class="window">
+                           <p>Giá : 9400 đ  </p>
+                           <p>Dòng kẻ: 4 ô ly vuông 2.5x2.5mm</p>
+                           <p>Kích thước: 170x240mm (±2mm)</p>
+                           <p>Số trang: 48 trang không kể bìa</p>
+                              
+                           <p>Định lượng: 100g/m²</p>
+                           <p> Độ trắng: 90-92%ISO</p>
+                           <p>Đóng Gói:10 quyển/lốc – 160 quyển/thùng</p>
+                           <div class="quantity">
+                              <label for="quantity">Số lượng:</label>
+                              <div class="quantity-input">
+                                <button class="quantity-button decrease">-</button>
+                                <input type="text" class="quantity-value" value="1" />
+                                <button class="quantity-button increase">+</button>
+                              </div>
+                          </div>
+                           <div class="nut">
+                              <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                             <button>Mua ngay</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+         
+               </div>
+             </div>
+             <div class="modal-container" id="modal-container-9">
+               <div class="modal-content" id="nine-modal">
+                  <div class="modal-header">
+                     <h3>Thông tin sản phẩm</h3>
+                     <button id="btn-close-9" ><i class="fa-solid fa-xmark" ></i></button>
+                  </div>
+                  <div class="modal-body">
+                     <div class="row-window">
+                        <div class="window">
+                           <img class="anh_lon"  src="img/giay/biamau.jpg" alt="">
+                           <ul class="thumbnail-images">
+                              <li><img src="img/giay/biamau_1.jpg" class="anh_nho" alt="" ></li>
+                              <li><img src="img/giay/biamau_2.jpg" alt="" class="anh_nho" ></li>
+                              <li><img src="img/giay/biamau_3.jpg" alt="" class="anh_nho" ></li>
+                           </ul>
+         
+                        </div>
+                        <div class="window">
+                           <p>Giá : 85000 đ  </p>
+                           <p>Màu sắc: Màu Đỏ Đô</p>
+                           <p>Kích thước: 210 x 297 mm</p>
+                           <p>Đóng gói: 100 tờ</p>
+                              
+                           <p>Định lượng: 160gsm</p>
+                           <p>Thương hiệu: Grand</p>
+                           <p>Chất liệu: Giấy cao cấp, không độc hại, an toàn cho người sử dụng</p>
+                           <div class="quantity">
+                              <label for="quantity">Số lượng:</label>
+                              <div class="quantity-input">
+                                <button class="quantity-button decrease">-</button>
+                                <input type="text" class="quantity-value" value="1" />
+                                <button class="quantity-button increase">+</button>
+                              </div>
+                          </div>
+                           <div class="nut">
+                              <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                             <button>Mua ngay</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+         
+               </div>
+             </div>
+       
+             <p id="tieude2" class="heading-product" ><i>Bút phổ biến nhất</i></p>
+    
+             <!--                    Bút           -->
+             <div class="row">
+          
+               <div class="product-card">
+                  <img src="img/but/butchi2b.jpg" alt="">
+                  <div class="card-body">
+                      <h2 class="card-title" >Bút chì bấm 2B</h2>
+                      <p>Giá: 22000 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-10">Xem chi tiết</button></div>
+                  </div>
+                 
+                </div>
+                
+             
+                <div class="product-card">
+                  <img src="img/giay/smartkid.jpg" alt="">
+                  <div class="card-body">
+                      <h2 class="card-title">Bút Chì Smartkids 2B SK-091</h2>
+                      <p>Giá: 2500 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-11" >Xem chi tiết</button></div>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <img src="img/but/butgel.jpg" alt="">
+                  <div class="card-body">
+                      <h2 class="card-title">Bút Gel Officetex OT-GP001BU</h2>
+                      <p>Giá: 6000 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-12" >Xem chi tiết</button></div>
+                  </div>
+                </div>
+                <div class="product-card">
+                   <img src="img/but/butnen.jpg" alt="">
+                   <div class="card-body">
+                      <h2 class="card-title">Bút Bi Nến Smart Kids OT-BP019BU</h2>
+                      <p> Giá: 1600 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-13" >Xem chi tiết</button></div>
+                   </div>
+                </div>
+                <div class="product-card">
+                   <img src="img/but/daquang.jpg" alt="">
+                   <div class="card-body">
+                      <h2 class="card-title">Hộp 5 Bút Dạ Quang Màu Pastel </h2>
+                      <p>Giá: 40000 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-14" >Xem chi tiết</button></div>
+                   </div>
+                </div>
+                <div class="product-card">
+                   <img src="img/but/butky.jpg" alt="">
+                   <div class="card-body">
+                      <h2 class="card-title">Bút Ký Cao Cấp Mạ Vàng Pentel</h2>
+                      <p>Giá :235.000 đ</p>
+                      <div class="overlay"><button  type="button" id="btn-open-15" >Xem chi tiết</button></div>
+                      
+                   </div>
+                </div>
+                <div class="product-card">
+                  <img src="img/but/longdau.jpg" alt="">
+                  <div class="card-body">
+                     <h2 class="card-title">Bút lông dầu 2 đầu GX-PM01</h2>
+                     <p>Giá :10.000 đ</p>
+                     <div class="overlay"><button  type="button" id="btn-open-16" >Xem chi tiết</button></div>
+                     
+                  </div>
+               </div>
+               <div class="product-card">
+                  <img src="img/but/butkithuat.jpg" alt="">
+                  <div class="card-body">
+                     <h2 class="card-title">Bút lông kim Fine Pen cơ bản – chuyên nghiệp mực đen </h2>
+                     <p>Giá :22.000 đ</p>
+                     <div class="overlay"><button  type="button" id="btn-open-17" >Xem chi tiết</button></div>
+                     
+                  </div>
+               </div>
+               <div class="product-card">
+                  <img src="img/but/butcosilicon.jpg" alt="">
+                  <div class="card-body">
+                     <h2 class="card-title">BÚT CỌ SILICONE CHẤM BI 2 ĐẦU </h2>
+                     <p>Giá :160.000 đ</p>
+                     <div class="overlay"><button  type="button" id="btn-open-18" >Xem chi tiết</button></div>
+                     
+                  </div>
+               </div>
+            </div>
+            
+           </div>
+          
+           <div class="modal-container" id="modal-container-10">
+             <div class="modal-content" id="ten-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-10" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon"  src="img/but/butchi2b.jpg " alt="">
+                         
+                         <ul class="thumbnail-images">
+                            <li><img src="img/but/butchi2b_1.jpg" class="anh_nho" alt=""  ></li>
+                            <li><img src="img/but/butchi_2b.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/but/butchi2b.jpg" alt="" class="anh_nho" ></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá bán : 22000 đ</p>
+                         <p>Chất liệu : nhựa, cao cấp</p>
+                         <p>Kiểu dáng :bền chắc,êm </p>
+                         <p>Màu sắc: xanh lá cây  </p>
+                         <p>Độ dày ngòi: 1.3mm</p>
+                         <p>Kích thước: 19.4 x 4 x 1 cm</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-11">
+             <div class="modal-content" id="eleven-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-11" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon"  src="img/giay/smartkid.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/giay/smartkid_1.jpg" class="anh_nho" alt="" ></li>
+                            <li><img src="img/giay/smartkid_2.jpg" alt="" class="anh_nho" ></li>
+                            <li><img src="img/giay/smartkid_3.jpg" alt="" class="anh_nho" ></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá :2500 đ</p>
+                         <p> Kích thước lõi chì là 3.0mm</p>
+                         <p>Độ cứng: 2B</p>
+                         <p>Thân lục giác và một lớp sơn màu trơn, không đầu tẩy</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-12">
+             <div class="modal-content" id="twelve-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-12" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/but/butgel.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/but/butgel_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/but/butgel_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/but/butgel_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá: 6000 đ</p>
+                         <p> Đầu bút: 0.7 mm </p>
+                         <p> Màu mực: xanh</p>
+                         <p>Viết êm trơn, mực ra đều , liên tục, và không lem</p>
+                         <p>Đầu bi làm bằng thép không rỉ</p>
+                         <p>Đạt tiêu chuẩn châu ÂU EN 71-3</p>
+                         <p>Tránh va chạm vào các vật cứng quá mạnh</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-13">
+             <div class="modal-content" id="thirteen-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-13" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/but/butnen.jpg " alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/but/butnen_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/but/butnen_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/but/butnen_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá :1600 đ</p>
+                         <p>Đầu bi: 0.7mm</p>
+                         <p>Màu mực: xanh</p>
+                         <p>Bút được chế tạo kiểu thân đùn, không ruột</p>
+                         <p>  Mực được bơm trực tiếp vào vỏ bút</p>
+                         <p>Viết êm trơn, mực ra đều liên tục</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-14">
+             <div class="modal-content" id="fourteen-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-14"><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/but/daquang.jpg " alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/but/daquang_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/but/daquang_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/but/daquang_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá : 40000 đ</p>
+                         <p> Bề rộng nét viết: 1.0mm và 4.0mm</p>
+                         <p>Màu sắc: bao gồm 5 màu: Pastel Yellow, Pastel Turquoise, Pastel Magenta, Pastel Red, Pastel Green</p>
+                         <p>Mực có thể rửa và giặt sạch nếu dính trên da và vải</p>
+                         <p>Không làm lem chữ, không để lại vết khi photocopy</p> 
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-15">
+             <div class="modal-content" id="fifteen-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-15" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/but/butky.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/but/butky_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/but/butky_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/but/butky_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá :235.000 đ</p>
+                         <p>Cỡ ngòi 0.7mm thích hợp để viết và ký, có ruột thay thế LR7 khi dùng hết</p>
+                         <p>Bút được làm bằng thép không gỉ. Thiết kế viết đầu bấm thời trang, sành điệu và cá tính</p>
+                         <p>Bút ký kèm hộp rất lịch sự khi bạn mang tặng người thân của mình</p>
+                            
+                         <p>Màu mực: mực xanh</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-16">
+            <div class="modal-content" id="sixteen-modal">
+               <div class="modal-header">
+                  <h3>Thông tin sản phẩm</h3>
+                  <button id="btn-close-16" ><i class="fa-solid fa-xmark" ></i></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row-window">
+                     <div class="window">
+                        <img class="anh_lon" src="img/but/longdau.jpg" alt="">
+                        <ul class="thumbnail-images">
+                           <li><img src="img/but/longdau_1.jpg" class="anh_nho" alt=""></li>
+                           <li><img src="img/but/longdau_2.jpg" alt="" class="anh_nho"></li>
+                           <li><img src="img/but/longdau_3.jpg" alt="" class="anh_nho"></li>
+                        </ul>
+         
+                     </div>
+                     <div class="window">
+                        <p>Giá :10.000 đ</p>
+                        <p>Kích thước: 138 x Ø 20.7 mm</p>
+                        <p> Đóng gói: 10 chiếc/ hộp</p>
+                        <p>Màu mực 3 màu: Xanh dương, đen, đỏ</p>
+                        <p> Nguyên liệu mực không độc hại, an toàn sức khỏe người sử dụng</p>
+                           
+                        <p>Màu sắc tươi sáng, khô nhanh, độ bền màu cao</p>
+                        <p> Thời gian lưu kho sản phẩm từ 24 - 36 tháng</p>
+                        <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                        <div class="nut">
+                           <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                          <button>Mua ngay</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+            </div>
+          </div>
+         
+          <div class="modal-container" id="modal-container-17">
+            <div class="modal-content" id="seventeen-modal">
+               <div class="modal-header">
+                  <h3>Thông tin sản phẩm</h3>
+                  <button id="btn-close-17" ><i class="fa-solid fa-xmark" ></i></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row-window">
+                     <div class="window">
+                        <img class="anh_lon" src="img/but/butkithuat.jpg" alt="">
+                        <ul class="thumbnail-images">
+                           <li><img src="img/but/butkythuat_1.jpg" class="anh_nho" alt=""></li>
+                           <li><img src="img/but/butkythuat_2.jpg" alt="" class="anh_nho"></li>
+                           <li><img src="img/but/butkythuat_3.jpg" alt="" class="anh_nho"></li>
+                        </ul>
+         
+                     </div>
+                     <div class="window">
+                        <p>Giá :22.000 đ</p>
+                        <p>Nhiều kích thước ngòi tiện lợi từ 0.05mm đến 0.8mm.</p>
+                        <p>Mực mau khô và kháng nước, bảo vệ bức vẽ không bị lem.</p>
+                        <p>Ngòi bút mềm, mượt và đều màu, tạo ra đường nét chính xác và sắc nét.</p>
+                        <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                        <div class="nut">
+                           <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                          <button>Mua ngay</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+            </div>
+          </div>
+          
+          <div class="modal-container" id="modal-container-18">
+            <div class="modal-content" id="eighteen-modal">
+               <div class="modal-header">
+                  <h3>Thông tin sản phẩm</h3>
+                  <button id="btn-close-18" ><i class="fa-solid fa-xmark" ></i></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row-window">
+                     <div class="window">
+                        <img class="anh_lon" src="img/but/butcosilicon.jpg" alt="">
+                        <ul class="thumbnail-images">
+                           <li><img src="img/but/butcosilicon_1.jpg" class="anh_nho" alt=""></li>
+                           <li><img src="img/but/butcosilicon_2.jpg" alt="" class="anh_nho"></li>
+                           <li><img src="img/but/butcosilicon_3.jpg" alt="" class="anh_nho"></li>
+                        </ul>
+         
+                     </div>
+                     <div class="window">
+                        <p>Giá :160.000 đ</p>
+                        <p>Thương hiệu: OEM</p>
+                        <p>Xuất xứ: Nhật Bản</p>
+                        <p>Chất liệu composite</p>
+                        <p>Đặc điểm: Một dầu  silicone cao cấp với 5 cây 5 kiểu khác nhau</p>
+                        <p>Đặc điểm: Một đầu mo inox không rit năm cỡ từ nhỏ đến lớn</p>
+                        <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                        <div class="nut">
+                           <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                          <button>Mua ngay</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+            </div>
+          </div>
+         
+          <p id="tieude3" class="heading-product" ><i>Vật tư văn phòng</i></p>
+          <div class="khung">
+            <img src="img/giaycuon_1.png" alt="">
+          </div>
+          <!--             Đồ dùng văn phòng           -->
+          <div class="row">
+          
+            <div class="product-card">
+               <img src="img/do_dung_van_phong/biaa4.jpg" alt="">
+               <div class="card-body">
+                   <h2 class="card-title" >Bộ 100 Bìa Lá A4 11 Lỗ</h2>
+                   <p>Giá: 66.600 đ</p>
+                   <div class="overlay"><button type="button" id="btn-open-19">Xem chi tiết</button></div>
+               </div>
+              
+             </div>
+             
+          
+             <div class="product-card">
+               <img src="img/do_dung_van_phong/biahop.jpg" alt="">
+               <div class="card-body">
+                   <h2 class="card-title">Bìa Hộp PP 100mm A4 Flexoffice FO-BF03 </h2>
+                   <p>Giá: 104.400 đ</p>
+                   <div class="overlay"><button type="button" id="btn-open-20" >Xem chi tiết</button></div>
+               </div>
+             </div>
+             <div class="product-card">
+               <img src="img/do_dung_van_phong/maytinhcasio.jpg" alt="">
+               <div class="card-body">
+                   <h2 class="card-title">Máy Tính Casio FX 580 VN X</h2>
+                   <p>Giá: 681.300đ</p>
+                   <div class="overlay"><button type="button" id="btn-open-21" >Xem chi tiết</button></div>
+               </div>
+             </div>
+             <div class="product-card">
+                <img src="img/do_dung_van_phong/mucdau.jpg" alt="">
+                <div class="card-body">
+                   <h2 class="card-title">Mực Dấu Shiny S63 - Xanh Dương</h2>
+                   <p> Giá: 50.400 đ</p>
+                   <div class="overlay"><button type="button" id="btn-open-22" >Xem chi tiết</button></div>
+                </div>
+             </div>
+             <div class="product-card">
+                <img src="img/do_dung_van_phong/kimkep.jpg" alt="">
+                <div class="card-body">
+                   <h2 class="card-title">Kim Kẹp Tam Giác TGA C62 </h2>
+                   <p>Giá: 5.400 đ</p>
+                   <div class="overlay"><button type="button" id="btn-open-23" >Xem chi tiết</button></div>
+                </div>
+             </div>
+             <div class="product-card">
+                <img src="img/do_dung_van_phong/duclo_jpg.jpg" alt="">
+                <div class="card-body">
+                   <h2 class="card-title">Đục Lỗ Hình Bướm Apli 13070</h2>
+                   <p>Giá :58.400 đ</p>
+                   <div class="overlay"><button  type="button" id="btn-open-24" >Xem chi tiết</button></div>
+                   
+                </div>
+             </div>
+             <div class="product-card">
+               <img src="img/do_dung_van_phong/bia6ngan.jpg" alt="">
+               <div class="card-body">
+                  <h2 class="card-title">Bìa 6 Ngăn Thun CX-8F-011</h2>
+                  <p>Giá :51.300 đ</p>
+                  <div class="overlay"><button  type="button" id="btn-open-25" >Xem chi tiết</button></div>
+                  
+               </div>
+            </div>
+            <div class="product-card">
+               <img src="img/do_dung_van_phong/tao.jpg" alt="">
+               <div class="card-body">
+                  <h2 class="card-title">Khay Để Bút </h2>
+                  <p>Giá :64.000 đ</p>
+                  <div class="overlay"><button  type="button" id="btn-open-26" >Xem chi tiết</button></div>
+                  
+               </div>
+            </div>
+            <div class="product-card">
+               <img src="img/do_dung_van_phong/dungqua.jpg" alt="">
+               <div class="card-body">
+                  <h2 class="card-title">Túi Giấy Nắp Gấp </h2>
+                  <p>Giá :11.000 đ</p>
+                  <div class="overlay"><button  type="button" id="btn-open-27" >Xem chi tiết</button></div>
+                  
+               </div>
+            </div>
+         </div>
+         
+        </div>
+       
+        <div class="modal-container" id="modal-container-19">
+          <div class="modal-content" id="nineteen-modal">
+             <div class="modal-header">
+                <h3>Thông tin sản phẩm</h3>
+                <button id="btn-close-19" ><i class="fa-solid fa-xmark" ></i></button>
+             </div>
+             <div class="modal-body">
+                <div class="row-window">
+                   <div class="window">
+                      <img class="anh_lon" src="img/do_dung_van_phong/biaa4.jpg" alt="">
+                      
+                      <ul class="thumbnail-images">
+                         <li><img src="img/do_dung_van_phong/biaa4_1.jpg" class="anh_nho" alt=""></li>
+                         <li><img src="img/do_dung_van_phong/biaa4_2.jpg" alt="" class="anh_nho"></li>
+                         <li><img src="img/do_dung_van_phong/biaa4_3.jpg" alt="" class="anh_nho"></li>
+                      </ul>
+      
+                   </div>
+                   <div class="window">
+                      <p>Giá bán : 66.600 đ</p>
+                      <p>Thương hiệu : Stacom</p>
+                      <p>Xuất xứ : Việt Nam</p>
+                      <p>Màu sắc: trong suốt</p>
+                      <p>Chất liệu: nhựa</p>
+                      <p>Kích thước: 30 x 21 x 1 cm</p>
+                      <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                      <div class="nut">
+                         <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                        <button>Mua ngay</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+      
+          </div>
+        </div>
+      
+        <div class="modal-container" id="modal-container-20">
+          <div class="modal-content" id="twenty-modal">
+             <div class="modal-header">
+                <h3>Thông tin sản phẩm</h3>
+                <button id="btn-close-20" ><i class="fa-solid fa-xmark" ></i></button>
+             </div>
+             <div class="modal-body">
+                <div class="row-window">
+                   <div class="window">
+                      <img class="anh_lon" src="img/do_dung_van_phong/biahop.jpg" alt="">
+                      <ul class="thumbnail-images">
+                         <li><img src="img/do_dung_van_phong/biahop_1.jpg" class="anh_nho" alt=""></li>
+                         <li><img src="img/do_dung_van_phong/biahop_2.jpg" alt="" class="anh_nho"></li>
+                         <li><img src="img/do_dung_van_phong/biahop_3.jpg" alt="" class="anh_nho"></li>
+                      </ul>
+      
+                   </div>
+                   <div class="window">
+                      <p>Giá :104.400 đ</p>
+                      <p>Thương hiệu: Flexoffice</p>
+                      <p>Xuất xứ:Việt Nam</p>
+                      <p>Chất liệu: Nhựa</p>
+                      <p>Kích thước bao bì: 	31.5 x 23.5 x 10 cm</p>
+                      <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                      <div class="nut">
+                         <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                        <button>Mua ngay</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+      
+          </div>
+        </div>
+      
+        <div class="modal-container" id="modal-container-21">
+          <div class="modal-content" id="twentyone-modal">
+             <div class="modal-header">
+                <h3>Thông tin sản phẩm</h3>
+                <button id="btn-close-21" ><i class="fa-solid fa-xmark" ></i></button>
+             </div>
+             <div class="modal-body">
+                <div class="row-window">
+                   <div class="window">
+                      <img class="anh_lon" src="img/do_dung_van_phong/maytinhcasio.jpg" alt="">
+                      <ul class="thumbnail-images">
+                         <li><img src="img/do_dung_van_phong/maytinhcasio_1.jpg" class="anh_nho" alt=""></li>
+                         <li><img src="img/do_dung_van_phong/maytinhcasio_2.jpg" alt="" class="anh_nho"></li>
+                         <li><img src="img/do_dung_van_phong/maytinhcasio_3.jpg" alt="" class="anh_nho"></li>
+                      </ul>
+      
+                   </div>
+                   <div class="window">
+                      <p>Giá:681.300 đ</p>
+                      <p>Thương hiêu: Casio </p>
+                      <p>Xuất xứ: Thái Lan</p>
+                      <p>Bảo hành: 7 năm</p>
+                      <p>Chất liệu :Nhựa ,kim loại</p>
+                      <p>Kích thước bao bì : 17 x 8.4 x 2.5 cm</p>
+                      <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                      <div class="nut">
+                         <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                        <button>Mua ngay</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+      
+          </div>
+        </div>
+      
+        <div class="modal-container" id="modal-container-22">
+          <div class="modal-content" id="twentytwo-modal">
+             <div class="modal-header">
+                <h3>Thông tin sản phẩm</h3>
+                <button id="btn-close-22" ><i class="fa-solid fa-xmark" ></i></button>
+             </div>
+             <div class="modal-body">
+                <div class="row-window">
+                   <div class="window">
+                      <img class="anh_lon" src="img/do_dung_van_phong/mucdau.jpg" alt="">
+                      <ul class="thumbnail-images">
+                         <li><img src="img/do_dung_van_phong/mucdau_1.jpg" class="anh_nho" alt=""></li>
+                         <li><img src="img/do_dung_van_phong/mucdau_2.jpg" alt="" class="anh_nho"></li>
+                         <li><img src="img/do_dung_van_phong/mucdau_3.jpg" alt="" class="anh_nho"></li>
+                      </ul>
+      
+                   </div>
+                   <div class="window">
+                      <p>Giá :50.400 đ</p>
+                      <p>Thương hiêu: Sainy</p>
+                      <p>Xuất xứ: Đài Loan</p>
+                      <p>Chất liệu : Nhựa</p>
+                      <p>Kích thước bao bì: 9 x 3 x 3 cm</p>
+                      <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                      
+                      <div class="nut">
+                         <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                        <button>Mua ngay</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+      
+          </div>
+        </div>
+      
+        <div class="modal-container" id="modal-container-23">
+          <div class="modal-content" id="twentythree-modal">
+             <div class="modal-header">
+                <h3>Thông tin sản phẩm</h3>
+                <button id="btn-close-23"><i class="fa-solid fa-xmark" ></i></button>
+             </div>
+             <div class="modal-body">
+                <div class="row-window">
+                   <div class="window">
+                      <img class="anh_lon" src="img/do_dung_van_phong/kimkep.jpg" alt="">
+                      <ul class="thumbnail-images">
+                         <li><img src="img/do_dung_van_phong/kimkep_1.jpg" class="anh_nho" alt=""></li>
+                         <li><img src="img/do_dung_van_phong/kimkep_2.jpg" alt="" class="anh_nho"></li>
+                         <li><img src="img/do_dung_van_phong/kimkep_3.jpg" alt="" class="anh_nho"></li>
+                      </ul>
+      
+                   </div>
+                   <div class="window">
+                      <p>Giá : 5400 đ</p>
+                      <p>Thương hiêu: TGA</p>
+                      <p>Xuất xứ: Trung Quốc</p>
+                      <p>Chất liệu: kim loại</p>
+                      <p>Kích thước:5 x 3.5 x 2.5 cm</p> 
+                      <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                      <div class="nut">
+                         <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                        <button>Mua ngay</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+      
+          </div>
+        </div>
+      
+        <div class="modal-container" id="modal-container-24">
+          <div class="modal-content" id="twentyfour-modal">
+             <div class="modal-header">
+                <h3>Thông tin sản phẩm</h3>
+                <button id="btn-close-24" ><i class="fa-solid fa-xmark" ></i></button>
+             </div>
+             <div class="modal-body">
+                <div class="row-window">
+                   <div class="window">
+                      <img class="anh_lon" src="img/do_dung_van_phong/duclo_jpg.jpg" alt="">
+                      <ul class="thumbnail-images">
+                         <li><img src="img/do_dung_van_phong/duclo_1.jpg" class="anh_nho" alt=""></li>
+                         <li><img src="img/do_dung_van_phong/duclo_2.jpg" alt="" class="anh_nho"></li>
+                         <li><img src="img/do_dung_van_phong/duclo_3.jpg" alt="" class="anh_nho"></li>
+                      </ul>
+      
+                   </div>
+                   <div class="window">
+                      <p>Giá :58.400 đ</p>
+                      <p>Thương hiệu: APLI</p>
+                      <p>Xuất xứ: Trung Quốc</p>
+                      <p>Chất liệu: Nhựa,kim loại</p>
+                         
+                      <p>Kích thước: 7 x 4 x 4 cm</p>
+                      <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                      <div class="nut">
+                         <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                        <button>Mua ngay</button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+      
+          </div>
+        </div>
+      
+        <div class="modal-container" id="modal-container-25">
+         <div class="modal-content" id="twentyfive-modal">
+            <div class="modal-header">
+               <h3>Thông tin sản phẩm</h3>
+               <button id="btn-close-25" ><i class="fa-solid fa-xmark" ></i></button>
+            </div>
+            <div class="modal-body">
+               <div class="row-window">
+                  <div class="window">
+                     <img class="anh_lon" src="img/do_dung_van_phong/bia6ngan.jpg" alt="">
+                     <ul class="thumbnail-images">
+                        <li><img src="img/do_dung_van_phong/bia6ngan_1.jpg" class="anh_nho" alt=""></li>
+                        <li><img src="img/do_dung_van_phong/bia6ngan_2.jpg" alt="" class="anh_nho"></li>
+                        <li><img src="img/do_dung_van_phong/bia6ngan_3.jpg" alt="" class="anh_nho"></li>
+                     </ul>
+      
+                  </div>
+                  <div class="window">
+                     <p>Giá :51.300 đ</p>
+                     <p>Thương hiệu: OEM</p>
+                     <p>Xuất xứ: Trung Quốc</p>
+                     <p>Chất liệu : Nhựa</p>
+                     <p> Kích thước: 	33 x 23.8 x 1.2 cm</p>
+                     <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                     
+                     <div class="nut">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                       <button>Mua ngay</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      
+         </div>
+       </div>
+      
+       <div class="modal-container" id="modal-container-26">
+         <div class="modal-content" id="twentysix-modal">
+            <div class="modal-header">
+               <h3>Thông tin sản phẩm</h3>
+               <button id="btn-close-26" ><i class="fa-solid fa-xmark" ></i></button>
+            </div>
+            <div class="modal-body">
+               <div class="row-window">
+                  <div class="window">
+                     <img class="anh_lon" src="img/do_dung_van_phong/tao.jpg" alt="">
+                     <ul class="thumbnail-images">
+                        <li><img src="img/do_dung_van_phong/tao_1.jpg" class="anh_nho" alt=""></li>
+                        <li><img src="img/do_dung_van_phong/tao_2.jpg" alt="" class="anh_nho"></li>
+                        <li><img src="img/do_dung_van_phong/tao_3.jpg" alt="" class="anh_nho"></li>
+                     </ul>
+      
+                  </div>
+                  <div class="window">
+                     <p>Giá :64.000 đ</p>
+                     <p>Thương hiệu: Deli</p>
+                     <p>Xuất xứ: Trung Quốc</p>
+                     <p>Chất liệu: Nhựa</p>
+                     <p>Kích thước: 9 x 9 x 8 cm</p>
+                     <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                     <div class="nut">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                       <button>Mua ngay</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      
+         </div>
+       </div>
+       
+       <div class="modal-container" id="modal-container-27">
+         <div class="modal-content" id="twentyseven-modal">
+            <div class="modal-header">
+               <h3>Thông tin sản phẩm</h3>
+               <button id="btn-close-27" ><i class="fa-solid fa-xmark" ></i></button>
+            </div>
+            <div class="modal-body">
+               <div class="row-window">
+                  <div class="window">
+                     <img class="anh_lon" src="img/do_dung_van_phong/dungqua.jpg" alt="">
+                     <ul class="thumbnail-images">
+                        <li><img src="img/do_dung_van_phong/dungqua_1.jpg" class="anh_nho" alt=""></li>
+                        <li><img src="img/do_dung_van_phong/dungqua_2.jpg" alt="" class="anh_nho"></li>
+                        <li><img src="img/do_dung_van_phong/dungqua_3.jpg" alt="" class="anh_nho"></li>
+                     </ul>
+      
+                  </div>
+                  <div class="window">
+                     <p>Giá :11.000 đ</p>
+                     <p>Thương hiệu: Chưa xác định</p>
+                     <p>Chất liệu: Giấy Couche 210gsm</p>
+                     <p>Loại quai: nắp gập hột xoài</p>
+                     <p >Kích thước: 24x10x32cm</p>
+                     <div class="quantity">
+                        <label for="quantity">Số lượng:</label>
+                        <div class="quantity-input">
+                          <button class="quantity-button decrease">-</button>
+                          <input type="text" class="quantity-value" value="1" />
+                          <button class="quantity-button increase">+</button>
+                        </div>
+                    </div>
+                     <div class="nut">
+                        <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                       <button>Mua ngay</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      
+         </div>
+       </div>
+      
+       <p id="tieude4" class="heading-product" ><i>Dụng cụ học sinh</i></p>
+      
+            <!-- Dụng cụ học sinh              -->
+            <div class="row">
+          
+               <div class="product-card">
+                  <img src="img/dung_cu_hoc_sinh/dogoc.jpg" alt="">
+                  <div class="card-body">
+                      <h2 class="card-title" >Thước Đo Độ Nhỏ WinQ</h2>
+                      <p>Giá: 3.150 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-28">Xem chi tiết</button></div>
+                  </div>
+                 
+                </div>
+                
+             
+                <div class="product-card">
+                  <img src="img/dung_cu_hoc_sinh/tay.jpg" alt="">
+                  <div class="card-body">
+                      <h2 class="card-title">Tẩy Chì Học Sinh Staedtler 526 S40 </h2>
+                      <p>Giá: 4.950 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-29" >Xem chi tiết</button></div>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <img src="img/dung_cu_hoc_sinh/gotbutxe.jpg" alt="">
+                  <div class="card-body">
+                      <h2 class="card-title">Chuốt Chì Hình Xe Chở Hàng </h2>
+                      <p>Giá: 2.700đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-30" >Xem chi tiết</button></div>
+                  </div>
+                </div>
+                <div class="product-card">
+                   <img src="img/dung_cu_hoc_sinh/balo.jpg" alt="">
+                   <div class="card-body">
+                      <h2 class="card-title">Ba Lô Clever Hippo Fancy Active Sport</h2>
+                      <p> Giá: 750.000 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-31" >Xem chi tiết</button></div>
+                   </div>
+                </div>
+                <div class="product-card">
+                   <img src="img/dung_cu_hoc_sinh/queen.jpg" alt="">
+                   <div class="card-body">
+                      <h2 class="card-title">Mực Viết Máy Queen - Mực Tím</h2>
+                      <p>Giá: 16.650 đ</p>
+                      <div class="overlay"><button type="button" id="btn-open-32" >Xem chi tiết</button></div>
+                   </div>
+                </div>
+                <div class="product-card">
+                   <img src="img/dung_cu_hoc_sinh/compa.jpg" alt="">
+                   <div class="card-body">
+                      <h2 class="card-title">Bộ Compa Kèm Bút Chì Gỗ</h2>
+                      <p>Giá :41.850đ</p>
+                      <div class="overlay"><button  type="button" id="btn-open-33" >Xem chi tiết</button></div>
+                      
+                   </div>
+                </div>
+                <div class="product-card">
+                  <img src="img/dung_cu_hoc_sinh/bangphan.jpg" alt="">
+                  <div class="card-body">
+                     <h2 class="card-title">Bảng phấn học sinh</h2>
+                     <p>Giá :20.250 đ</p>
+                     <div class="overlay"><button  type="button" id="btn-open-34" >Xem chi tiết</button></div>
+                     
+                  </div>
+               </div>
+               <div class="product-card">
+                  <img src="img/dung_cu_hoc_sinh/spider.jpg" alt="">
+                  <div class="card-body">
+                     <h2 class="card-title">Bộ Dụng Cụ Học Tập 7 Món Spider Man</h2>
+                     <p>Giá :85.500 đ</p>
+                     <div class="overlay"><button  type="button" id="btn-open-35" >Xem chi tiết</button></div>
+                     
+                  </div>
+               </div>
+               <div class="product-card">
+                  <img src="img/dung_cu_hoc_sinh/baotap.jpg" alt="">
+                  <div class="card-body">
+                     <h2 class="card-title">Cuộn - Bao Tập Nylon TP (10 Tờ/Cuộn)</h2>
+                     <p>Giá :10.400 đ</p>
+                     <div class="overlay"><button  type="button" id="btn-open-36" >Xem chi tiết</button></div>
+                     
+                  </div>
+               </div>
+            </div>
+            
+           </div>
+          
+           <div class="modal-container" id="modal-container-28">
+             <div class="modal-content" id="twentyeight-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-28" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/dung_cu_hoc_sinh/dogoc.jpg" alt="">
+                         
+                         <ul class="thumbnail-images">
+                            <li><img src="img/dung_cu_hoc_sinh/dogoc_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/dung_cu_hoc_sinh/dogoc_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/dung_cu_hoc_sinh/dogoc_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá bán : 3.150 đ</p>
+                         <p>Thương hiệu : WinQ</p>
+                         <p>Xuất xứ : Việt Nam</p>
+                         
+                         <p>Chất liệu: nhựa</p>
+                         <p>Trọng lượng : 7gr</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-29">
+             <div class="modal-content" id="twentynine-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-29" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/dung_cu_hoc_sinh/tay.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/dung_cu_hoc_sinh/tay_1.jog.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/dung_cu_hoc_sinh/tay_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/dung_cu_hoc_sinh/tay_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá :4.950 đ</p>
+                         <p>Thương Hiệu :Staedtler</p>
+                         <p>Xuất xứ:Thái Lan</p>
+                         <p>Chất liệu: Cao Su</p>
+                         <p>Kích thước bao bì: 	3.3 x 1.6 x 1.3 cm</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-30">
+             <div class="modal-content" id="thirty-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-30" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/dung_cu_hoc_sinh/gotbutxe.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/dung_cu_hoc_sinh/gotbutxe_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/dung_cu_hoc_sinh/gotbutxe_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/dung_cu_hoc_sinh/gotbutxe_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá:2.700 đ</p>
+                         <p>Thương hiêu: Hồng Hà </p>
+                         <p>Xuất xứ: Việt Nam</p>
+                         <p>Bảo hành: 7 năm</p>
+                         <p>Chất liệu :Nhựa ,kim loại</p>
+                         <p>Kích thước bao bì : 4 x 2 x 1 cm</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-31">
+             <div class="modal-content" id="thirtyone-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-31" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/dung_cu_hoc_sinh/balo.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/dung_cu_hoc_sinh/balo_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/dung_cu_hoc_sinh/balo_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/dung_cu_hoc_sinh/balo_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá :750.550 đ</p>
+                         <p>Thương Hiệu :Clever Hippo</p>
+                         <p>Xuất xứ: Việt Nam</p>
+                         <p>Chất liệu : Nhựa,Vải</p>
+                         <p>Kích Thước Bao Bì	:38 x 32 x 18 cm</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-32">
+             <div class="modal-content" id="thirtytwo-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-32"><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/dung_cu_hoc_sinh/queen.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/dung_cu_hoc_sinh/queen_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/dung_cu_hoc_sinh/queen_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/dung_cu_hoc_sinh/queen_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá : 16.650đ</p>
+                         <p>Thương hiêu: Queen</p>
+                         <p>Xuất xứ: Việt Nam</p>
+                         <p>Chất liệu: thủy tinh</p>
+                         <p>Kích thước:5.5 x 5.5 x 3 cm</p> 
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-33">
+             <div class="modal-content" id="thirtythree-modal">
+                <div class="modal-header">
+                   <h3>Thông tin sản phẩm</h3>
+                   <button id="btn-close-33" ><i class="fa-solid fa-xmark" ></i></button>
+                </div>
+                <div class="modal-body">
+                   <div class="row-window">
+                      <div class="window">
+                         <img class="anh_lon" src="img/dung_cu_hoc_sinh/compa.jpg" alt="">
+                         <ul class="thumbnail-images">
+                            <li><img src="img/dung_cu_hoc_sinh/compa_1.jpg" class="anh_nho" alt=""></li>
+                            <li><img src="img/dung_cu_hoc_sinh/compa_2.jpg" alt="" class="anh_nho"></li>
+                            <li><img src="img/dung_cu_hoc_sinh/compa_3.jpg" alt="" class="anh_nho"></li>
+                         </ul>
+         
+                      </div>
+                      <div class="window">
+                         <p>Giá :41.850 đ</p>
+                         <p>Thương Hiệu:Maped</p>
+                         <p>Xuất xứ: Trung Quốc</p>
+                         <p>Trọng lương:30gr</p>
+                            
+                         <p>Kích Thước Bao Bì:19 x 8 x 2 cm</p>
+                         <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                         <div class="nut">
+                            <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                           <button>Mua ngay</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+         
+             </div>
+           </div>
+         
+           <div class="modal-container" id="modal-container-34">
+            <div class="modal-content" id="thirtyfour-modal">
+               <div class="modal-header">
+                  <h3>Thông tin sản phẩm</h3>
+                  <button id="btn-close-34" ><i class="fa-solid fa-xmark" ></i></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row-window">
+                     <div class="window">
+                        <img class="anh_lon" src="img/dung_cu_hoc_sinh/bangphan.jpg" alt="">
+                        <ul class="thumbnail-images">
+                           <li><img src="img/dung_cu_hoc_sinh/bangphan_1.jpg" class="anh_nho" alt=""></li>
+                           <li><img src="img/dung_cu_hoc_sinh/bangphan_2.jpg" alt="" class="anh_nho"></li>
+                           <li><img src="img/dung_cu_hoc_sinh/bangphan_3.jpg" alt="" class="anh_nho"></li>
+                        </ul>
+         
+                     </div>
+                     <div class="window">
+                        <p>Giá :20.250 đ</p>
+                        <p>Thương hiệu: Thiên Long</p>
+                        <p>Xuất xứ: Việt Nam</p>
+                        <p>Chất liệu : Nhựa</p>
+                        <p>Kích Thước Bao Bì:	31.8 x 21.8 x 0.22 cm</p>
+                        <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                        
+                        <div class="nut">
+                           <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                          <button>Mua ngay</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+            </div>
+          </div>
+         
+          <div class="modal-container" id="modal-container-35">
+            <div class="modal-content" id="thirtyfive-modal">
+               <div class="modal-header">
+                  <h3>Thông tin sản phẩm</h3>
+                  <button id="btn-close-35" ><i class="fa-solid fa-xmark" ></i></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row-window">
+                     <div class="window">
+                        <img class="anh_lon" src="img/dung_cu_hoc_sinh/spider.jpg" alt="">
+                        <ul class="thumbnail-images">
+                           <li><img src="img/dung_cu_hoc_sinh/spider_1.jpg" class="anh_nho" alt=""></li>
+                           <li><img src="img/dung_cu_hoc_sinh/spider_2.jpg" alt="" class="anh_nho"></li>
+                           <li><img src="img/dung_cu_hoc_sinh/spider_3.jpg" alt="" class="anh_nho"></li>
+                        </ul>
+         
+                     </div>
+                     <div class="window">
+                        <p>Giá :85.500 đ</p>
+                        <p>Thương hiệu: Hohohaha</p>
+                        <p>Xuất xứ: Trung Quốc</p>
+                        <p>Chất liệu: Nhựa,Kim loại</p>
+                        <p>Kích Thước Bao Bì:30 x 21.5 x 3 cm</p>
+                        <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                        <div class="nut">
+                           <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                          <button>Mua ngay</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+            </div>
+          </div>
+          
+          <div class="modal-container" id="modal-container-36">
+            <div class="modal-content" id="thirtysix-modal">
+               <div class="modal-header">
+                  <h3>Thông tin sản phẩm</h3>
+                  <button id="btn-close-36" ><i class="fa-solid fa-xmark" ></i></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row-window">
+                     <div class="window">
+                        <img class="anh_lon" src="img/dung_cu_hoc_sinh/baotap.jpg" alt="">
+                        <ul class="thumbnail-images">
+                           <li><img src="img/dung_cu_hoc_sinh/baotap_1.jpg" class="anh_nho" alt=""></li>
+                           <li><img src="img/dung_cu_hoc_sinh/baotap_2.jpg" alt="" class="anh_nho"></li>
+                           <li><img src="img/dung_cu_hoc_sinh/baotap_3.jpg" alt="" class="anh_nho"></li>
+                        </ul>
+         
+                     </div>
+                     <div class="window">
+                        <p>Giá :10.400 đ</p>
+                        <p>Thương Hiệu:FAHASA</p>
+                        <p>Xuất xứ: Việt Nam</p>
+                        <p>Chất liệu :Nhựa</p>
+                        <p >Kích Thước Bao Bì:22.5 x 4 x 2 cm</p>
+                        <div class="quantity">
+                           <label for="quantity">Số lượng:</label>
+                           <div class="quantity-input">
+                             <button class="quantity-button decrease">-</button>
+                             <input type="text" class="quantity-value" value="1" />
+                             <button class="quantity-button increase">+</button>
+                           </div>
+                       </div>
+                        <div class="nut">
+                           <button><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</button>
+                          <button>Mua ngay</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         
+            </div>
+          </div>
+              </div>   
+             </div>
+        <!-- footer -->
+        
+       
+        <footer>
+
+            
+          <div class="footer">
+              <div class="conten">
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-4 col-lg-4 col-xl-4 p-0">
+                          <div class="logo-footer">
+                             <h1>Stationery store</h1>
+                          </div>
+                          <div class="contact">
+                              <div class="icon-footer"> <i class="fa-solid fa-location-dot"></i> Số 3 phố Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội.</div>
+                              <div class="icon-footer"><i class="fa-regular fa-envelope"></i><a href="#"> xx3duongxx@gmail.com</a></div>
+                              <div class="icon-footer"><i class="fa-solid fa-phone"></i> 0123456789</div>
+                              <div class="icon-footer"><i class="icon-footer-contact fa-brands fa-facebook"></i> <i class="icon-footer-contact fa-brands fa-instagram"></i><i class="icon-footer-contact fa-brands fa-twitter"></i></div>
+                              
+                          </div>
+                      </div>
+
+                      <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4 p-0 list-footer">
+                          <h4 class="title-menu">
+                             Info
+                          </h4>
+                          <ul class="info">
+                              <li><a href="">About</a></li>
+                              <li><a href="">Contact</a></li>
+                              <li><a href="">Terms and condition</a></li>
+                              <li><a href="">Privary peley</a></li>
+                              
+                          </ul>
+                      </div>
+                      <div class="col-xs-12 col-md-3 col-lg-4 col-xl-4 p-0 btn-footer">
+                          <h4 class="title-menu">
+                              Subscribe to our Newsletter
+                          </h4>
+                          <div class="search-box-footer">
+                              <input type="text" class="search-box-footer__input" placeholder="Search">
+                              <a href="" class="search-btn-footer"> <i class="icon fas fa-search"></i></a>
+                           </div>
+                           <div >
+                              <button class="to-top" id="toTopButton"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i></button>
+                             </div>
+                      </div>
+
+                      </div>
+
+                  </div>
+          
+          
+         </footer>
+    <!-- </div> -->
+    <script src="js/main.js"></script>
+</body>
+</html>

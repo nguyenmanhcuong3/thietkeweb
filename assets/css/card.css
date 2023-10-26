@@ -1,0 +1,226 @@
+div  .product-card img{    /* ảnh thẻ card  /*/ 
+    height:100px;
+    width:200px;
+    margin-left: 20px;
+    
+}
+h2.card-title{
+    font-size:15px;
+    text-align:center;
+
+}
+
+.display-product h2+p{
+    text-align:center;
+}
+
+div  .product-card{
+    position:relative;
+    width:250px;
+    margin: 20px;
+    margin-right: 100px;
+    left: 80px;
+    /*transition: transform 0.5s linear;/*/
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    
+}
+
+/* CSS hiệu ứng khi di chuột qua thẻ card */
+div  .product-card:hover {    /*  thẻ card khi hover/*/
+    background-color:azure; /* Chuyển màu nền thành tím khi hover */
+    opacity: 0.8; /* Làm mờ thẻ card khi hover */
+    /*transform:translateY(-20%);/*/
+}
+
+/* CSS cho overlay */
+.overlay {        /*  trạng thái nút overlay khi chưa hover/*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền mờ */
+    opacity: 0; /* Không hiển thị ban đầu */
+    
+}
+
+/* CSS cho nút Xem chi tiết */
+div  .product-card:hover .overlay {
+    opacity: 1; /* Hiển thị overlay khi hover */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div  .product-card:hover .overlay button[id^="btn-open"] {                     /* nút xem chi tiết khi hover/*/
+    background-color:rgb(229, 255, 0); /* Màu nền của nút */
+    color: red; /* Màu chữ của nút */
+    padding: 10px 20px; /* Kích thước nút */
+    border-radius: 5px; /* Góc bo tròn nút */
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+/* Để căn giữa nút Xem chi tiết */
+div .row .product-card:hover .overlay button[id^="btn-open"] {
+    display: inline-block;
+}
+div .row .product-card:hover .overlay button[id^="btn-open"]:active {
+    background-color:rgb(138, 127, 255);
+}
+/* tao cua so thong tin/*/
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    overflow: auto;
+}
+.modal-content {
+    background: linear-gradient(0,rgba(236, 156, 200, 0.626),pink);
+    max-width: 50%; /* Tùy chỉnh kích thước */
+    max-height: 80%; /* Tùy chỉnh kích thước */
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    display: none;
+    overflow-y: auto;
+    margin:100px auto;
+  }
+@media (max-width: 768px) {
+    .modal-content {
+      max-width: 100%; /* Sử dụng toàn bộ chiều rộng màn hình */
+      max-height: 100%; /* Sử dụng toàn bộ chiều cao màn hình */
+      margin: 10px; /* Khoảng cách giữa cửa sổ thông tin và mép màn hình */
+    }
+  }
+.modal-content button[id^="btn-close"] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  div.modal-header{
+      display:flex;
+      justify-content: space-between;
+  }
+  div.modal-header h3{
+    margin-top:0;
+}
+  .modal-content .window {
+    padding: 10px;
+  }
+.row-window ul {
+  display: flex; 
+  transform:translateY(20%);
+  list-style-type: none;
+  
+}
+
+.anh_lon {
+  width:200px; 
+  height: 200px; 
+  transform:translateX(20%);
+  box-shadow: 5px 5px 10px lightgreen;
+  border-radius:5px;
+}
+
+.anh_nho {
+  width:100px; 
+  height: 100px;
+  margin-left:0; 
+  padding:5px;
+  transform:translateX(-50%);
+  cursor: pointer;
+  
+}
+.anh_nho:hover{
+   border:5px solid lightgreen;
+}
+div.row-window{
+  display:flex;
+  padding:30px;
+  margin-left: 0;
+  justify-content: space-between;
+}
+
+.modal-content p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+
+/*  css cho các nút trong cửa sổ thông tin/*/
+
+.modal-content .nut {
+    display: flex;
+    justify-content:space-between;
+  }
+.modal-content .nut button {
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    height:10%;
+    
+  }
+.modal-content .nut button:active {
+    background-color: cyan;
+  }
+div.nut button:nth-of-type(1){      
+    transform: translateX(-20%);
+    
+}
+.quantity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  .quantity-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .quantity-button:active {
+    background-color: orange; /* Đổi màu nền thành màu cam khi nút được bấm */
+    
+  }
+ .quantity-input input[type="text"] {
+    width: 80px;
+    text-align: center;
+  }
+
+  .heading-product{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    color: red;
+    background-color: aqua;
+  }
+  

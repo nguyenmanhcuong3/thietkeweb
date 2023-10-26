@@ -1,0 +1,13 @@
+.header{
+    background-color: rgb(103, 0, 246);
+    display: flex;
+    margin-top: 60px;
+    line-height: 70px;
+}
+.header h1{
+    z-index: 1;
+}
+.header img{
+    width: 70px;
+    height: 70px;
+}
